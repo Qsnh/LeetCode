@@ -33,7 +33,7 @@
 
 
 代码：
-```
+```go
 func maxProfit(prices []int) int {
     m := 0
     for i := 1; i < len(prices); i++ {
